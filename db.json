@@ -2,63 +2,111 @@
   "products": [
     {
       "id": 1,
-      "title": "Wireless Headphones",
-      "description": "Noise-cancelling over-ear headphones with long battery life.",
-      "price": 99.99,
-      "category": "electronics",
+      "title": "Smartphone",
+      "description": "A powerful smartphone with a sleek design.",
+      "price": 699.99,
+      "category": "Electronics",
       "image": "https://via.placeholder.com/150",
-      "stock": 25,
-      "rating": 4.5
+      "stock": 50
     },
     {
       "id": 2,
-      "title": "Smartphone",
-      "description": "Latest model with high-resolution camera and fast processor.",
-      "price": 799.99,
-      "category": "electronics",
+      "title": "Laptop",
+      "description": "A high-performance laptop for all your needs.",
+      "price": 1199.99,
+      "category": "Electronics",
       "image": "https://via.placeholder.com/150",
-      "stock": 15,
-      "rating": 4.7
+      "stock": 30
     },
     {
       "id": 3,
-      "title": "Running Shoes",
-      "description": "Lightweight and comfortable running shoes for daily wear.",
-      "price": 59.99,
-      "category": "footwear",
+      "title": "Wireless Headphones",
+      "description": "Noise-cancelling wireless headphones.",
+      "price": 199.99,
+      "category": "Accessories",
       "image": "https://via.placeholder.com/150",
-      "stock": 50,
-      "rating": 4.2
+      "stock": 100
     },
     {
       "id": 4,
-      "title": "Coffee Maker",
-      "description": "Brew your favorite coffee with this easy-to-use coffee maker.",
-      "price": 49.99,
-      "category": "home appliances",
+      "title": "Running Shoes",
+      "description": "Comfortable and durable running shoes.",
+      "price": 89.99,
+      "category": "Footwear",
       "image": "https://via.placeholder.com/150",
-      "stock": 30,
-      "rating": 4.0
+      "stock": 70
     },
     {
       "id": 5,
-      "title": "Office Chair",
-      "description": "Ergonomic office chair with lumbar support.",
-      "price": 129.99,
-      "category": "furniture",
+      "title": "Digital Camera",
+      "description": "Capture stunning photos with this digital camera.",
+      "price": 499.99,
+      "category": "Electronics",
       "image": "https://via.placeholder.com/150",
-      "stock": 20,
-      "rating": 4.3
+      "stock": 20
     },
     {
       "id": 6,
-      "title": "Wrist Watch",
-      "description": "Stylish analog wristwatch with leather strap.",
-      "price": 199.99,
-      "category": "accessories",
+      "title": "Gaming Console",
+      "description": "Experience next-gen gaming with this console.",
+      "price": 399.99,
+      "category": "Electronics",
       "image": "https://via.placeholder.com/150",
-      "stock": 10,
-      "rating": 4.8
+      "stock": 25
+    },
+    {
+      "id": 7,
+      "title": "Blender",
+      "description": "A high-power blender for your kitchen.",
+      "price": 59.99,
+      "category": "Home Appliances",
+      "image": "https://via.placeholder.com/150",
+      "stock": 40
+    },
+    {
+      "id": 8,
+      "title": "Watch",
+      "description": "A stylish wristwatch for all occasions.",
+      "price": 149.99,
+      "category": "Accessories",
+      "image": "https://via.placeholder.com/150",
+      "stock": 60
+    },
+    {
+      "id": 9,
+      "title": "Coffee Maker",
+      "description": "Brew your perfect cup of coffee every morning.",
+      "price": 79.99,
+      "category": "Home Appliances",
+      "image": "https://via.placeholder.com/150",
+      "stock": 35
+    },
+    {
+      "id": 10,
+      "title": "Electric Kettle",
+      "description": "Quickly boil water with this electric kettle.",
+      "price": 29.99,
+      "category": "Home Appliances",
+      "image": "https://via.placeholder.com/150",
+      "stock": 45
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Accessories"
+    },
+    {
+      "id": 3,
+      "name": "Footwear"
+    },
+    {
+      "id": 4,
+      "name": "Home Appliances"
     }
   ],
   "cart": [
@@ -71,74 +119,11 @@
       "id": 2,
       "productId": 3,
       "quantity": 1
-    }
-  ],
-  "categories": [
-    {
-      "id": "electronics",
-      "name": "Electronics"
     },
     {
-      "id": "footwear",
-      "name": "Footwear"
-    },
-    {
-      "id": "home appliances",
-      "name": "Home Appliances"
-    },
-    {
-      "id": "furniture",
-      "name": "Furniture"
-    },
-    {
-      "id": "accessories",
-      "name": "Accessories"
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "email": "johndoe@example.com",
-      "password": "password123"
-    },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "email": "janesmith@example.com",
-      "password": "mypassword"
-    }
-  ],
-  "orders": [
-    {
-      "id": 1,
-      "userId": 1,
-      "products": [
-        {
-          "productId": 1,
-          "quantity": 2
-        },
-        {
-          "productId": 2,
-          "quantity": 1
-        }
-      ],
-      "total": 999.97,
-      "status": "Shipped",
-      "created_at": "2024-08-22T10:30:00Z"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "products": [
-        {
-          "productId": 3,
-          "quantity": 1
-        }
-      ],
-      "total": 59.99,
-      "status": "Processing",
-      "created_at": "2024-08-23T14:15:00Z"
+      "id": 3,
+      "productId": 6,
+      "quantity": 1
     }
   ]
 }
